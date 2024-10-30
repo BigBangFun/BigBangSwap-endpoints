@@ -9,7 +9,7 @@ interface APIConfig {
 
 const api_host_config: Record<string, string> = {
     development: 'alpha-api.izumi.finance',
-    production: 'api.izumi.finance',
+    production: 'api.merlinswap.org',
     local: 'localhost:8000',
 };
 
