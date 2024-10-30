@@ -1,11 +1,9 @@
 const prodTokenListUrl = [
-    'https://raw.githubusercontent.com/izumiFinance/izumi-tokenList/main/build/tokenList.json',
-    'https://tokenlist.izumi.finance/tokenList.json',
+    'https://raw.githubusercontent.com/BigBangFun/BigBangSwap-tokenList/refs/heads/main/build/tokenList.json',
 ];
 
 const devTokenListUrl = [
-    'https://raw.githubusercontent.com/izumiFinance/izumi-tokenList/main/build/tokenListDev.json',
-    'https://tokenlist.izumi.finance/tokenListDev.json',
+    'https://raw.githubusercontent.com/BigBangFun/BigBangSwap-tokenList/refs/heads/main/build/tokenListDev.json',
 ];
 
 export const tokenListUrl = process.env.REACT_APP_ENV === 'production' ? prodTokenListUrl : devTokenListUrl;
